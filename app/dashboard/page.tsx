@@ -1,5 +1,4 @@
 'use client';
-import LoginButton from "../ui/login/LoginButton";
 import Dashboard from "./Dashboard";
 export default function Page() {
   return (
