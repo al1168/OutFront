@@ -10,7 +10,7 @@ export default function LoginButton() {
         // Parameters to pass to OAuth 2.0 endpoint.
         const params: { [key: string]: string } = {
             'client_id': process.env.CLIENT_ID || "",
-            'redirect_uri': "https://outfront.vercel.app",
+            'redirect_uri': "https://outfront.vercel.app/Dashboard",
             'response_type': 'token',
             'scope': 'https://www.googleapis.com/auth/youtube.force-ssl',
             'include_granted_scopes': 'true',
