@@ -1,5 +1,3 @@
-## Next.js App Router Course - Starter
-
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+This is the frontend of OUTPLAYEDTOYOUTUBE
+This essentially is a next js application using next auth authentication to access
+In the future, I plan to make it create a video browsing library when u can see which videos u have uploaded to youtube, favorites ETC
