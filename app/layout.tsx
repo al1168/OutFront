@@ -1,4 +1,6 @@
 import '@/app/ui/global.css';
+import Providers from './lib/Providers';
+import Appbar from './ui/Appbar';
  
 export default function RootLayout({
   children,
@@ -7,7 +9,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Providers>
+          <Appbar />
+        {children}
+        </Providers>
+        </body>
     </html>
   );
 }
